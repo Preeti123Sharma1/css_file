@@ -1,0 +1,19 @@
+/* External CSS and .line is the class secletor */
+.line1 {
+    background-color: #b6f27e;
+    color: #8a2be2;    
+    margin: 100px;
+    padding: 20px;
+}
+.line2 {
+    background-color: #e0da97;
+    color: #34065f;    
+    margin: 100px;
+    padding: 20px;
+}
+
+/* for id we use # symbol */
+#line3{
+    background-color: #720707;
+    color: #faeda5;
+}

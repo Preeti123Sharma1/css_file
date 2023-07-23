@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Internal CSS -->
+    <style>
+        p{
+            background-color: aquamarine;
+            color: black;
+            margin: 100px;
+            padding: 20px;
+        }
+        /* Attribute selector */
+        input[type="text"] {
+            background-color: rgb(185, 248, 248);
+            border: 3px solid red;
+            padding: 10px;
+        }
+        /* Pseudo Selector :- It is use when the cursor move on the word or button */
+        button:hover{
+            background-color: rgb(248, 218, 244);
+            padding: 10px;
+            border: 2px dashed purple;
+        }
+        /* Selector List */
+        h1, p{
+            background-color: azure;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: rgb(38, 7, 218);">Hello Girls</h1>
+    <!-- inline CSS -->
+    <p style="background-color: black;color:bisque">inline -> Lorem ipsum dolor sit amet 
+    consectetur adipisicing elit. Tempora, fuga?</p>
+
+    <!-- Internal CSS -->
+    <p>Internal CSS ->  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, numquam!</p>
+
+    <!--External CSS-->
+    <!-- Class selector -> class is the attribute and line is classname. class selector use by the help of "." and "classname" in CSS-->
+    <p class="line1">External CSS ->  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, numquam!</p>
+    <p class="line2">External CSS ->  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, numquam!</p>
+
+    <!-- we create id many time so it runs but id is unique so we create it only one times. -->
+    <p id="line3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, quia?</p>
+    <input type="text">
+    <button>write</button>
+</body>
+</html>
